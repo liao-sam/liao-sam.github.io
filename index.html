@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="个人主页，展示简介、作品、能力和联系方式。"
+    >
+    <title>我的个人主页</title>
+    <link rel="preload" href="assets/hero-workspace.png" as="image">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="回到首页">
+        <span class="brand-mark">M</span>
+        <span>我的主页</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#work">作品</a>
+        <a href="#skills">能力</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-label="首页介绍">
+        <img class="hero-image" src="assets/hero-workspace.png" alt="明亮的个人工作空间">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">个人网站 / Portfolio</p>
+          <h1>你好，我是Sam。</h1>
+          <p class="hero-text">
+            我正在把想法、作品和经历整理到这里。这个页面可以展示我的介绍、项目、技能和联系方式。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">查看作品</a>
+            <a class="button secondary" href="#contact">联系我</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="about">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>把这里换成你的真实简介。</h2>
+        </div>
+        <p>
+          我关注清晰的表达、持续学习和把事情做成。你可以在这里写自己的身份：学生、设计师、开发者、创作者、创业者，或者任何你想被别人认识的样子。
+        </p>
+      </section>
+
+      <section class="section work" id="work">
+        <div class="section-heading">
+          <p class="section-kicker">Work</p>
+          <h2>精选内容</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-tag">项目一</p>
+            <h3>个人代表作品</h3>
+            <p>写一段项目背景、你负责的部分，以及最后产生的结果。</p>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">项目二</p>
+            <h3>学习或实践记录</h3>
+            <p>适合放课程作品、研究笔记、实习经历、比赛项目或长期兴趣。</p>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">项目三</p>
+            <h3>正在进行的事情</h3>
+            <p>展示你最近在做什么，让访问者看到一个正在成长的你。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-heading">
+          <p class="section-kicker">Skills</p>
+          <h2>我可以提供什么</h2>
+        </div>
+        <div class="skill-list" aria-label="能力列表">
+          <span>沟通表达</span>
+          <span>项目整理</span>
+          <span>内容创作</span>
+          <span>学习研究</span>
+          <span>问题分析</span>
+          <span>协作执行</span>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>欢迎联系我</h2>
+        </div>
+        <div class="contact-panel">
+          <p>邮箱：<a href="mailto:yourname@example.com">sh.liao@outlook.com</a></p>
+          <p>微信 / 电话：18913935341。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> 你的名字</span>
+      <a href="#home">回到顶部</a>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
